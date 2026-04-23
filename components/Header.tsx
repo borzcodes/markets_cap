@@ -1,8 +1,14 @@
+'use client';
+
 import React from 'react'
 import Link from "next/link";
 import Image from "next/image";
+import {cn} from "@/lib/utils";
+import {usePathname} from "next/navigation";
 
 const Header = () => {
+    const pathname = usePathname();
+
     return (
         <header>
             <div className='main-container inner'>
@@ -11,11 +17,16 @@ const Header = () => {
                 </Link>
 
                 <nav>
-                    <Link href='/'>Home</Link>
+                    <Link className={cn('nav-link',{
+                        'is-active': pathname === '/',
+                        'is-home': true
+                    })} href='/'>Home</Link>
 
                     <p>Search Modal</p>
 
-                    <Link href='/coins'>All of the tokens</Link>
+                    <Link href='/coins' className={cn('nav-link',{
+                        'is-active': pathname === '/coins',
+                    })}>All Coins</Link>
                 </nav>
             </div>
         </header>
