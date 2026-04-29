@@ -20,7 +20,7 @@ const Page = () => {
                     </div>
                  </div>
 
-                 <DataTable columns={[{header:'Title'},{header:'Price'}]}/>
+                 <DataTable data={[]} columns={[{header:'Title'},{header:'Price'}]}/>
              </section>
 
             <section className='w-full mt-7 space-y-4'>

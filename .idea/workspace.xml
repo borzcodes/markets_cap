@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc522574-c5d4-4f51-9f47-4c5b6173f9ba" name="Changes" comment="'Initializing DataTable'">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DataTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/DataTable.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="bc522574-c5d4-4f51-9f47-4c5b6173f9ba" name="Changes" comment="'Initializing DataTable'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +35,9 @@
     &quot;repository&quot;: &quot;markets_cap&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -114,7 +114,7 @@
       <workItem from="1776967645757" duration="948000" />
       <workItem from="1777068382482" duration="3526000" />
       <workItem from="1777232752374" duration="4514000" />
-      <workItem from="1777325832521" duration="2285000" />
+      <workItem from="1777325832521" duration="3128000" />
     </task>
     <task id="LOCAL-00001" summary="'Initializing the project'">
       <option name="closed" value="true" />
@@ -180,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777326044009</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="'Initializing DataTable'">
+      <option name="closed" value="true" />
+      <created>1777414434888</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1777414434888</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
