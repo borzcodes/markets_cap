@@ -2,6 +2,10 @@ import React from 'react'
 import Image from "next/image";
 import DataTable from "@/components/DataTable";
 
+const columns: DataTableColumn<TrendingCoin>[] = [
+    {header: "Name", key: "name"},
+]
+
 const Page = () => {
     return (
         <main className="main-container">
